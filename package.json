@@ -1,0 +1,36 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "name": "@livestd/react-ticker-hook",
+  "version": "1.0.0",
+  "description": "Simple ticker model for pooling requests.",
+  "main": "build/index.js",
+  "keywords": [
+    "react",
+    "react-ticker",
+    "react-hooks",
+    "ticker",
+    "pooling-subscribe"
+  ],
+  "author": "Dmitry Rtishchev @livestd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livestd/react-ticker-hook.git"
+  },
+  "homepage": "https://github.com/livestd/react-ticker-hook#readme",
+  "bugs": {
+    "url": "https://github.com/livestd/react-ticker-hook/issues"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "typescript": "^3.6.3"
+  }
+}
